@@ -1,21 +1,16 @@
 # MultiMethod
 
-**TODO: Add description**
+An Elixir implementation of Clojure multi methods. Dynamic dispatch of arbitrary
+values, either pattern matched or computed without the need to develop structs
+and protocols.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `multi_method` to your list of dependencies in `mix.exs`:
+This is highly experimental and I'm not even completely sure it's useful to anyone.
+If you'd _like_ to install it, feel free via the git dependency method:
 
-```elixir
-def deps do
-  [
-    {:multi_method, "~> 0.1.0"}
-  ]
-end
+```(elixir)
+{:multi_method, git: "https://github.com/jeffgrunewald/multi_method.git", branch: "master"}, 
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/multi_method](https://hexdocs.pm/multi_method).
-
+Great practice with macros, though.
